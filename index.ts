@@ -23,8 +23,8 @@ var resultado = []
 
 var pedidos = lodash.forEach(listaUnida, (item)=>{
  return control.get(item).then((res)=>{
- console.log(res)
-})
+ console.log(res)     //esto es lo que quisiera que devuelva la variable resultado 
+})                    // pero devuelve una lista vacia
 })
 
 
