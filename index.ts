@@ -23,7 +23,7 @@ var resultado = []
 
 var pedidos = lodash.forEach(listaUnida, (item)=>{
  return control.get(item).then((res)=>{
- return(res)
+ console.log(res)
 })
 })
 
